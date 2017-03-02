@@ -37,19 +37,17 @@ const fields = {
 
 const uiSchema = {
   'ui:field': 'layout',
-  'ui:options': {
-    layout: [
-      {
-        firstName: { md: 6 },
-        lastName: { md: 6 }
-      }, {
-        bio: { md: 12 }
-      }, {
-        age: { md: 6 },
-        password: { md: 6 }
-      }
-    ]
-  }
+  'ui:layout': [
+    {
+      firstName: { md: 6 },
+      lastName: { md: 6 }
+    }, {
+      bio: { md: 12 }
+    }, {
+      age: { md: 6 },
+      password: { md: 6 }
+    }
+  ]
 }
 
 
