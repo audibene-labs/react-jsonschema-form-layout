@@ -4552,7 +4552,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nwb-less@^0.5.1:
+"nwb-less@ 0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/nwb-less/-/nwb-less-0.5.1.tgz#0d4e73eb7cd54fed851b3af217a0d1e332468fc4"
   dependencies:
@@ -5364,7 +5364,7 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-bootstrap@^0.30.7:
+"react-bootstrap@ 0.30.7":
   version "0.30.7"
   resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-0.30.7.tgz#39da80088693ecb71e8e63b5bdc313571fd993d1"
   dependencies:
@@ -5390,7 +5390,7 @@ react-dom@15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react-dropzone@^3.11.0:
+"react-dropzone@ 3.11.0":
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/react-dropzone/-/react-dropzone-3.11.0.tgz#bfe270a5a86dd9aa7a969cdaaa7c3c44d000e64a"
   dependencies:
@@ -5431,7 +5431,7 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-test-renderer@^15.4.2:
+"react-test-renderer@ 15.4.2":
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-15.4.2.tgz#27e1dff5d26d0e830f99614c487622bc831416f3"
   dependencies:
