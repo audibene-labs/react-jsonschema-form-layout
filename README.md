@@ -35,6 +35,8 @@ yarn add react-jsonschema-form-layout
 
 # Usage:
 
+Make sure you checkout the [demo-src](https://github.com/audibene-labs/react-jsonschema-form-layout/blob/master/demo/src/index.js) and the [test-src](https://github.com/audibene-labs/react-jsonschema-form-layout/blob/master/tests/simple.spec.js)
+
 ```javascript
 const schema = {
   title: 'Todo',
