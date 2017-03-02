@@ -1,6 +1,6 @@
 {
   "name": "react-jsonschema-form-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-jsonschema-form-layout React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -21,7 +21,7 @@
     "demo": "nwb build-demo"
   },
   "dependencies": {
-    "react-bootstrap": "^0.30.7",
+    "react-bootstrap": " 0.30.7",
     "react-jsonschema-form": "0.43.0"
   },
   "peerDependencies": {
@@ -36,16 +36,16 @@
     "eslint-plugin-react": "6.10.0",
     "jest": "19.0.2",
     "nwb": "0.15.x",
-    "nwb-less": "^0.5.1",
+    "nwb-less": " 0.5.1",
     "react": "15.4.2",
     "react-dom": "15.4.2",
-    "react-dropzone": "^3.11.0",
-    "react-test-renderer": "^15.4.2"
+    "react-dropzone": " 3.11.0",
+    "react-test-renderer": " 15.4.2"
   },
-  "author": "",
+  "author": "Mario Scheliga <marsch.js@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/audibene-labs/react-jsonschema-form-layout",
   "keywords": [
     "react-component"
   ]
