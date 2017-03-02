@@ -1,0 +1,80 @@
+.dndzone {
+ position: relative;
+ text-align: center;
+ display: block;
+ background-color: #f5f5f5;
+ border: 1px dashed #bababa;
+ height: 130px;
+ width: 130px;
+
+ i {
+  margin: 0 auto;
+ }
+
+ .invalid,.preview,.empty {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f5f5f5;
+  border: 1px dashed #bababa;
+  color: #b1b1b1;
+
+  i {
+   margin-top: 30px;
+  }
+ }
+
+ .preview {
+  background-color: rgba(255,255,255,.5);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px dashed #bababa;
+ }
+
+ .statusMessage {
+  position: absolute;
+  color: black;
+  background-color: rgba(255,255,255,.8);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+  line-height: 30px;
+ }
+
+ .deleteButton {
+  position: absolute;
+  background: none;
+  border: none;
+  top: 0;
+  left: 0;
+  padding: 2px;
+  margin: 0;
+  background-color: rgba(255,255,255,.8);
+  color: #b1b1b1;
+
+  &:hover {
+   color: black;
+  }
+ }
+
+
+ &:hover {
+  cursor: pointer;
+ }
+
+ // &:hover i {
+ //  display: block;
+ // }
+
+ input[type="file"] {
+  display: none;
+ }
+
+
+}

@@ -18,14 +18,27 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-bootstrap": "^0.30.7",
+    "react-jsonschema-form": "0.43.0"
+  },
   "peerDependencies": {
     "react": "15.x"
   },
   "devDependencies": {
+    "babel-eslint": "7.1.1",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-0": "6.22.0",
+    "eslint": "3.16.1",
+    "eslint-plugin-react": "6.10.0",
+    "jest": "19.0.2",
     "nwb": "0.15.x",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "nwb-less": "^0.5.1",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-dropzone": "^3.11.0",
+    "react-test-renderer": "^15.4.2"
   },
   "author": "",
   "homepage": "",
