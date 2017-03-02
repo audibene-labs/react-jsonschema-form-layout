@@ -6,6 +6,8 @@
 
 Just a small custom field for the awesome [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form).
 
+see [DEMO](https://audibene-labs.github.io/react-jsonschema-form-layout/demo/dist/index.html)
+
 # Key features:
 
 * support bootstrap's grid
