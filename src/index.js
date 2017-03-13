@@ -37,13 +37,11 @@ export default class GridField extends ObjectField {
             formContext={formContext}/> : null}
         {
           layout.map((row, index) => {
-            console.log('rendering:', row, index)
             return (
               <div className="row" key={index}>
                 {
                   Object.keys(row).map((name, index) => {
                     const { doShow, ...rowProps } = row[name]
-                    console.log('name?', doShow)
                     let style = {}
                     if (doShow && !doShow({ formData })) {
                       style = { display: 'none' }
@@ -70,12 +68,10 @@ export default class GridField extends ObjectField {
                       const { render, ...rowProps } = row[name]
                       let UIComponent = () => null
 
-                      console.log('render custom?', this.state, name, uiSchema)
                       if (render) {
                         UIComponent = render
                       }
 
-                      console.log('got uicomponent', UIComponent)
                       return (
                             <Col {...rowProps} key={index} style={style}>
                               <UIComponent
