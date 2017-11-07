@@ -5,7 +5,7 @@ module.exports = {
   },
   npm: {
     esModules: true,
-    umd: false
+    umd: true
   },
   webpack: {
     html: {
